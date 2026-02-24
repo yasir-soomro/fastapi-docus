@@ -1,0 +1,69 @@
+
+DAY 1 → Signup + hashing
+DAY 2 → Login + verification
+DAY 3 → JWT creation
+DAY 4 → Protected routes
+DAY 5 → Refresh tokens
+DAY 6 → AI app integration
+
+Step 1 — Learn hashing first
+
+Because signup depends on it.
+
+Step 2 — Learn login verification
+
+Because JWT depends on login.
+
+Step 3 — Learn JWT creation
+
+Because protected routes depend on token.
+
+Step 4 — Learn protected routes
+
+Because real apps require security.
+
+<--------------------------------------------------->
+
+fastapi → framework
+
+PyJWT → JWT token creation/verification
+
+passlib[bcrypt] → password hashing
+
+python-multipart → form data handling
+
+<--------------------------------------------------->
+
+Create Config (JWT settings)
+
+We need a secret key, algorithm, and token expiry.
+
+Secret key → signs token (prevents fake tokens)
+
+Algorithm → HS256 is standard and secure
+
+Expire → token automatically invalidates
+
+<--------------------------------------------------->
+
+
+Step	Why
+Config	Centralizes secret, algo, expiry
+
+Password hash	Never store plaintext passwords
+
+Create token	Sign user info for stateless auth
+
+Verify token	Check token validity on requests
+
+Protected route	Only valid tokens get access
+
+
+
+<---------------------------------------------------------------------------------------------->
+
+ SECRET_KEY: str = "my_super_secret_key_12345"  # 🔑 Keep this secret in production!
+    ALGORITHM: str = "HS256"                       # 🔐 Recommended algorithm
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 30          # ⏱ Token valid for 30 minutes
+
+<---------------------------------------------------------------------------------------------->

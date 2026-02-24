@@ -1,0 +1,83 @@
+STEP 1 — Build Clean Backend Architecture
+
+Not routes only.
+
+Learn:
+
+project folder structure
+
+routers separation
+
+services layer
+
+repository pattern
+
+config management
+
+environment handling
+
+👉 Goal: maintainable backend
+
+
+STEP 2 — Database Production Skills
+
+You already know SQL → now learn:
+
+migrations (Alembic)
+
+indexing strategy
+
+query optimization
+
+connection pooling
+
+transactions
+
+soft deletes
+
+audit logging
+
+👉 Goal: reliable data layer
+
+
+
+STEP 3 — Async & Performance (VERY IMPORTANT)
+
+This is where many FastAPI devs fail.
+
+Learn:
+
+async vs sync DB calls
+
+background tasks
+
+job queues
+
+streaming responses
+
+caching with Redis
+
+rate limiting
+
+👉 Goal: fast backend
+
+
+STEP 4 — Auth & Security (Must for production)
+
+Learn:
+
+JWT auth properly
+
+refresh tokens
+
+role-based access
+
+password hashing
+
+API key protection
+
+request validation
+
+preventing prompt injection (for AI)
+
+👉 Goal: safe backend

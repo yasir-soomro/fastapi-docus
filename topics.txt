@@ -1,0 +1,207 @@
+
+FastAPI Topics List
+1️⃣ Basics
+
+Introduction to FastAPI
+
+Installing FastAPI & Uvicorn
+
+Creating your first FastAPI app
+
+Path operations (GET, POST, PUT, DELETE)
+
+Path parameters & query parameters
+
+Request body (JSON)
+
+Response models (Pydantic schemas)
+
+Status codes & responses
+
+2️⃣ Data Validation & Schemas
+
+Pydantic models
+
+Field validations (regex, min/max, constraints)
+
+Nested models
+
+Optional fields
+
+Default values
+
+Response model customization
+
+3️⃣ Dependency Injection
+
+Using Depends
+
+Dependencies in path operations
+
+Global dependencies
+
+Dependency overrides for testing
+
+4️⃣ Routers & Modularization
+
+APIRouter usage
+
+Prefixes and tags
+
+Splitting routes into modules
+
+5️⃣ Middleware & Events
+
+Adding middleware
+
+CORS handling
+
+Startup & shutdown events
+
+6️⃣ Security & Authentication
+
+OAuth2 Password flow
+
+JWT authentication
+
+API keys
+
+Security utilities (HTTPBasic, OAuth scopes)
+
+Password hashing
+
+7️⃣ Database Integration
+
+SQLAlchemy ORM integration
+
+Tortoise ORM integration
+
+Alembic migrations
+
+Repository pattern
+
+CRUD operations
+
+8️⃣ Services & Clean Architecture
+
+Service layer design
+
+Repository layer
+
+Business logic separation
+
+ 
+
+9️⃣ Advanced Responses
+
+Custom response models
+
+Streaming responses
+
+File uploads & downloads
+
+Response headers & cookies
+
+Background tasks
+
+1️⃣0️⃣ Error Handling
+
+HTTPException
+
+Custom exception handlers
+
+Logging & error reporting
+
+1️⃣1️⃣ Configuration & Environment
+
+Using .env files
+
+Pydantic BaseSettings
+
+Different environments (dev, prod, staging)
+
+1️⃣2️⃣ Testing
+
+Unit testing with pytest
+
+TestClient from FastAPI
+
+Dependency overrides for testing
+
+Mocking database operations
+
+1️⃣3️⃣ Asynchronous Programming
+
+Async vs sync endpoints
+
+Async database queries
+
+Concurrency handling
+
+1️⃣4️⃣ Performance & Optimization
+
+Uvicorn & Gunicorn deployment
+
+Caching strategies
+
+Rate limiting
+
+Request validation performance tuning
+
+1️⃣5️⃣ Documentation & API Exploration
+
+OpenAPI docs
+
+Swagger UI
+
+ReDoc
+
+Customizing docs
+
+1️⃣6️⃣ Background Jobs & Scheduling
+
+Background tasks
+
+Celery integration
+
+Task queues
+
+1️⃣7️⃣ WebSockets & Real-time
+
+WebSocket endpoints
+
+Broadcasting messages
+
+Async communication
+
+1️⃣8️⃣ Event-driven & Microservices
+
+Message queues (RabbitMQ, Kafka)
+
+Event-driven design
+
+FastAPI in microservices architecture
+
+1️⃣9️⃣ Deployment & DevOps
+
+Dockerizing FastAPI apps
+
+CI/CD pipelines
+
+Kubernetes deployment
+
+Cloud deployment (AWS, GCP, Azure)
+
+2️⃣0️⃣ Advanced Topics
+
+Custom middleware & dependencies
+
+Custom security schemes
+
+Versioning APIs
+
+GraphQL with FastAPI
+
+OpenAPI extensions
+
+Plugin architecture
